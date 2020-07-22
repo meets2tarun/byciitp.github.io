@@ -22,7 +22,7 @@ var setListeners = function() {
 				if(playing == null || playing.id != this.id)
 				{
 					player.pause();
-					player.src = "../" + this.id;
+					player.src = "https://raw.githubusercontent.com/byciitp/audios/master/" + this.id;
 					this.classList.add("active");
 					if (playing)
 						playing.classList.remove("active");
