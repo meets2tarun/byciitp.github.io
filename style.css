@@ -1,0 +1,60 @@
+
+.with-chevron[aria-expanded='true'] i {
+  display: block;
+  transform: rotate(180deg) !important;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+#footer {
+	padding: 2px;
+	color: #FFFFFF;
+	flex-shrink: 0;
+	background: #263238;
+	bottom: 0;
+}
+
+#slides {
+	text-align: center;
+}
+
+.active-link {
+    color: #2196f3 !important;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+.slick-slide {
+    height: 500px;
+    text-align: center;
+    color: #419be0;
+    background: white;
+}
+
+img {
+    margin: 0 auto;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.slick-prev:before {
+  background: red;
+}
+
+.slick-next:before {
+  background: red;
+}
