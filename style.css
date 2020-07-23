@@ -16,6 +16,12 @@ body {
 
 .container {
   flex: 1 0 auto;
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  color: #424242;
+  padding: 100px auto;
+  border-radius: 10px;
+  background: #26C6DA;
 }
 
 #footer {
@@ -56,4 +62,9 @@ body {
 }
 .slick-youtube-image {
   clip-path: inset(4vw 0px 4vw 0px);}
+}
+
+.content {
+  /*display: flex;*/
+  /*background-color: #4FC3F7;*/
 }
