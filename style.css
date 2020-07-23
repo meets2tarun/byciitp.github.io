@@ -38,23 +38,22 @@ body {
 
 }
 
+.slick-items {
+  margin: 0 5%;
+}
+
 .slick-slide {
-    height: 500px;
-    text-align: center;
-    color: #419be0;
-    background: white;
+  max-width: 50%;
+  text-align: center;
+  color: #419be0;
+  background: white;
 }
 
-img {
-    margin: 0 auto;
-    max-height: 500px;
-    max-width: 500px;
+.slick-image {
+  margin: 0 auto;
+  width: 50%; 
+  max-height: 10%;
 }
-
-.slick-prev:before {
-  background: red;
-}
-
-.slick-next:before {
-  background: red;
+.slick-youtube-image {
+  clip-path: inset(4vw 0px 4vw 0px);}
 }

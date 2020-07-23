@@ -6,8 +6,11 @@ $(document).ready( function () {
 		slidesToShow: 1,
 		adaptiveHeight: true,
 		autoplay: true,
-		autoplaySpeed: 1000,
+		autoplaySpeed: 1500,
 		infinit: true,
+		arrows: true,
+		prevArrow:"<img class='a-right control-c next slick-prev' src='https://image.flaticon.com/icons/svg/892/892512.svg' style='width: 50px; height: 50px;'>",
+		nextArrow:"<img class='a-left control-c prev slick-next' src='https://image.flaticon.com/icons/svg/892/892528.svg' style='width: 50px; height: 50px;'>",
 		responsive: [
 		{
 		  breakpoint: 768,
